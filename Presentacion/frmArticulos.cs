@@ -64,6 +64,7 @@ namespace Presentacion
         {
             dgvArticulos.Columns["ImagenUrl"].Visible = false;
             dgvArticulos.Columns["Id"].Visible = false;
+            dgvArticulos.Columns["Descripcion"].Visible = false;
         }
         private void cargarImagen(string imagen)
         {
@@ -129,7 +130,7 @@ namespace Presentacion
             {
                 if (string.IsNullOrEmpty(txtFiltroAvanzado.Text))
                 {
-                    MessageBox.Show("Por favor, debes cargar el filtro para precio.");
+                    MessageBox.Show("Por favor, debe cargar el filtro para el precio.");
                     return true;
                 }
                 if (!(validaciones.soloNumeros(txtFiltroAvanzado.Text)))

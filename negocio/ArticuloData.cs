@@ -107,12 +107,12 @@ namespace negocio
                 datos.cerrarConexion();
             }
         }
-        public void eliminarArticulo(int id)
+        public void eliminarArticulo(int Id)
         {
             try
             {
                 datos.setearConsulta("delete from ARTICULOS where Id = @Id");
-                datos.setearParametros("@Id", id);
+                datos.setearParametros("@Id", Id);
                 datos.ejecutarAccion();
             }
             catch (Exception ex)

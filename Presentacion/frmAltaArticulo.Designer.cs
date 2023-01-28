@@ -186,7 +186,6 @@
             // 
             this.txtImagenUrl.Location = new System.Drawing.Point(173, 255);
             this.txtImagenUrl.Name = "txtImagenUrl";
-            this.txtImagenUrl.ShortcutsEnabled = false;
             this.txtImagenUrl.Size = new System.Drawing.Size(121, 20);
             this.txtImagenUrl.TabIndex = 5;
             this.txtImagenUrl.Leave += new System.EventHandler(this.txtImagenUrl_Leave);

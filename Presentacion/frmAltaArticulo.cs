@@ -146,7 +146,7 @@ namespace Presentacion
                 MessageBox.Show("Por favor, debes cargar todos los campos para dar el alta.");
                 return true;
             }
-            if (!(validaciones.sinEspeciales(txtCodigo.Text)) || !(validaciones.sinEspeciales(txtNombre.Text)) || !(validaciones.sinEspeciales(txtDescripcion.Text)) || !(validaciones.sinEspeciales(cboMarca.Text)) || !(validaciones.sinEspeciales(cboCategoria.Text)))
+            if (!(validaciones.sinEspeciales(txtCodigo.Text)) || !(validaciones.sinEspeciales(cboMarca.Text)) || !(validaciones.sinEspeciales(cboCategoria.Text)))
             {
                 MessageBox.Show("Por favor, no ingrese caracteres especiales en el alta.");
                 return true;
